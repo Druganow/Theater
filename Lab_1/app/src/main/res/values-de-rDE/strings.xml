@@ -1,0 +1,13 @@
+﻿<resources>
+    <string name="app_name">Kirovtheater</string>
+    <string name="theaterTUZ_name">Theater auf Spasskaja</string>
+    <string name="theaterTUZ_address">Kirov, Spasskajastraße, 17</string>
+    <string name="theaterDrama_name">Das Kirower Schauspielhaus</string>
+    <string name="theaterDrama_address">Kirov, Moskaustraße, 37</string>
+    <string name="theaterDol_name">Kirov Puppentheater benannt nach A. N. Afanasyev</string>
+    <string name="theaterDol_address">Kirov, Spasskayastraße, 22</string>
+    <string name="truppa_but">Truppe</string>
+    <string name="afisha_but">Zettel</string>
+
+</resources>
+

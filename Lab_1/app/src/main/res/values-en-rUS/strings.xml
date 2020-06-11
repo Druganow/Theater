@@ -1,0 +1,12 @@
+﻿<resources>
+    <string name="app_name">Theaters In Kirov</string>
+    <string name="theaterTUZ_name">Theatre on Spasskaya</string>
+    <string name="theaterTUZ_address">Kirov, Spasskaya str., 17</string>
+    <string name="theaterDrama_name">Kirov drama theatre</string>
+    <string name="theaterDrama_address">Kirov, Moskovskaya str., 37</string>
+    <string name="theaterDol_name">The Kirov theatre of dolls of a name of A. N. Afanasyev</string>
+    <string name="theaterDol_address">Kirov, Spasskaya str., 22</string>
+    <string name="truppa_but">Troupe</string>
+    <string name="afisha_but">Billboard</string>
+    Театры Вятки
+</resources>

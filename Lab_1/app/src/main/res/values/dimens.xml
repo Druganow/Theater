@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_padding">5dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="relative_padding">5dp</dimen>
+    <dimen name="image_view_width">120dp</dimen>
+    <dimen name="theater_name_size">20sp</dimen>
+    <dimen name="theater_address_size">16sp</dimen>
+    <dimen name="image_view_">5dp</dimen>
+    <dimen name="relative_margin">5dp</dimen>
+    <dimen name="theatre_name_size">20dp</dimen>
+    <dimen name="theatre_address_size">16dp</dimen>
+    <dimen name="icon_size">25dp</dimen>
+    <dimen name="image_view_size">250dp</dimen>
+    <dimen name="map_size">230dp</dimen>
+       <!--   <dimen name="">dp</dimen>-->
+    </resources>

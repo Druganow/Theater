@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    tools:context=".MainActivity">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/theaterTUZ"
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin"
+        android:onClick="CardClick">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/relative_padding">
+
+
+            <ImageView
+                android:id="@+id/theaterTUZ_image_view"
+                android:layout_width="@dimen/image_view_width"
+                android:layout_height="@dimen/image_view_width"
+                android:layout_margin="@dimen/relative_margin"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tuz_img" />
+
+            <TextView
+                android:id="@+id/theaterTUZ_name_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/theatre_name_size"
+                android:layout_margin="@dimen/relative_margin"
+                android:layout_toEndOf="@+id/theaterTUZ_image_view"
+                android:text="@string/theaterTUZ_name" />
+
+            <TextView
+                android:id="@+id/theaterTUZ_address_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/theaterTUZ_name_text_view"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/relative_margin"
+                android:layout_toEndOf="@+id/theaterTUZ_image_view"
+                android:textSize="@dimen/theater_address_size"
+                android:text="@string/theaterTUZ_address" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/theaterDrama"
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin"
+        android:onClick="CardClick">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/relative_padding">
+
+
+            <ImageView
+                android:id="@+id/theaterDrama_image_view"
+                android:layout_width="@dimen/image_view_width"
+                android:layout_height="@dimen/image_view_width"
+                android:layout_margin="@dimen/relative_margin"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/drama_img" />
+
+            <TextView
+                android:id="@+id/theaterDrama_name_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/theaterDrama_name"
+                android:textSize="@dimen/theatre_name_size"
+                android:layout_margin="@dimen/relative_margin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/theaterDrama_image_view"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/theaterDrama_address_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/relative_margin"
+                android:text="@string/theaterDrama_address"
+                android:textSize="@dimen/theater_address_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/theaterDrama_image_view"
+                app:layout_constraintTop_toBottomOf="@+id/theaterDrama_name_text_view" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/theaterDol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin">
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/relative_padding"
+            android:onClick="CardClick">>
+
+            <ImageView
+                android:id="@+id/theaterDol_image_view"
+                android:layout_width="@dimen/image_view_width"
+                android:layout_height="@dimen/image_view_width"
+                android:layout_margin="@dimen/relative_margin"
+                android:src="@drawable/dol_img" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/relative_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/theaterDol_name_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/relative_margin"
+                    android:textSize="@dimen/theatre_name_size"
+                    android:text="@string/theaterDol_name" />
+
+                <TextView
+                    android:id="@+id/theaterDol_address_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/relative_margin"
+                    android:textSize="@dimen/theater_address_size"
+                    android:text="@string/theaterDol_address" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
